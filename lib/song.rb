@@ -55,7 +55,7 @@ class Song
     song = self.new
     song.artist_name = filename.split(" - ")[0].strip
     temp_name = filename.split("-")[1].strip
-    name = temp_name.split(".")[0]
+    song.name = temp_name.split(".")[0]
     binding.pry
   end
 
