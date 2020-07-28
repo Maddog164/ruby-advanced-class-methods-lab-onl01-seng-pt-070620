@@ -39,8 +39,13 @@ class Song
     #if self.find_by_name(name) == false
     #  self.create_by_name(name)
     #end
-    binding.pry
+    #binding.pry
     self.find_by_name(name) || self.create_by_name(name)
   end
+
+  def self.alphabetical
+    @@all.sort
+  end
+  
 
 end
