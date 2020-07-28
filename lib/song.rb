@@ -57,6 +57,7 @@ class Song
     temp_name = name.split("-")[1].strip
     song.name = temp_name.split(".")[0]
     #binding.pry
+    song
   end
 
 end
