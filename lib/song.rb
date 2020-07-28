@@ -56,7 +56,7 @@ class Song
     song.artist_name = name.split(" - ")[0].strip
     temp_name = name.split("-")[1].strip
     song.name = temp_name.split(".")[0]
-    binding.pry
+    #binding.pry
   end
 
 end
